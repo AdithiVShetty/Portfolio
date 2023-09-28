@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+.back-main{
+    padding-top: 100px;
+    margin-left: 50px;
+}
+.back-main a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.back-main a i{
+    transition: 1s;
+}
+.back-main a:hover i{
+    transform: translateX(-8px);
+}
+.more-header{
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 150px;
+  height: 220px;
+}
+.more-header-btn{
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+.more-header-btn i{
+  margin-left: 5px;
+  transition: 1s;
+}
+.more-header-btn:hover i{
+  transform: translate(0, 0) rotate(90deg);
+}
+.more-header-sub{
+  padding: 8px 0;
+  box-shadow: 6px 6px 20px -8px  rgb(14, 14, 102);
+}
+.more-header-sub div{
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 9px;
+  transition: 0.3s;
+  color: var(--primary-color);
+}
+.more-header-sub div a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.more-header-sub div a:hover{
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+  .education{
+    width: 100%;
+    min-height: 60vh;
+    align-items: center;
+    padding: 0 6% 0 6%;
+    position: relative;
+    margin-top: -100px;
+  }
+  .e-head {
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .e-head span{
+    color: var(--secondary-color);
+  }
+  .e-head i{
+    margin-right: 8px;
+  }
+  .education-contain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  .education-contain li {
+    background-color: transparent;
+    padding: 8%;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 1px 1px 20px 10px rgb(14, 14, 102, 0.3);
+  }
+  .e-field {
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+  }
+  .e-field i {
+    margin-right: 5px;
+  }
+  .e-school,
+  .e-mark,
+  .e-year {
+    color: var(--moreEd-color);
+  }
+  .experience{
+    width: 100%;
+    min-height: 90vh;
+    align-items: center;
+    padding: 0 6%;
+    position: relative;
+  }
+  .experience-contain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  .exp-1,
+  .exp-2 {
+    background-color: transparent;
+    padding: 6%;
+    border-radius: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: justify;
+    transition: 0.3s;
+    box-shadow: 1px 1px 20px 10px rgb(14, 14, 102, 0.3);
+  }
+  .exp-1 p,
+  .exp-2 p {
+    margin-top: 10px;
+  }
+  .position {
+    margin-top: 4px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .achievements{
+    width: 100%;
+    min-height: 80vh;
+    align-items: center;
+    padding: 0 6%;
+    position: relative;
+  }
+  .achievement-contain {
+    background-color: transparent;
+    padding: 6%;
+    border-radius: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: justify;
+    transition: 0.3s;
+    box-shadow: 1px 1px 20px 10px rgb(14, 14, 102, 0.3);
+  }
+  .achievement-contain div {
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  .achievement-contain div i {
+    margin-right: 20px;
+  }
+
+  @media (max-width: 877px){
+    .more-header{
+      padding-top: 115px;
+    }
+  }
+  @media (max-width: 650px){
+    .education-contain {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .e-3{
+      grid-column:  span 2;
+    }
+  }
+  @media (max-width: 570px){
+    .experience-contain{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .more-header a{
+      font-size: 16px;
+      width: 100%;
+    }
+    .more-header a i{
+      display: block;
+    }
+  }
+  @media (max-width: 420px){
+    .education-contain {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .e-3{
+      grid-column:  span 1;
+    }
+    .back-main{
+      padding-top: 20px;
+      margin-left: 30px;
+  }
+  .more-header a{
+    font-size: 15px;
+  }
+  }
