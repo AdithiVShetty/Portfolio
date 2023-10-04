@@ -12,6 +12,7 @@
     --moreSwiper-color: rgba(255, 255, 255, 0.2);
     --moreEd-color: rgb(135, 118, 151);
     --project-container-color: rgba(0, 0, 35, 0.85);
+    --project-back-color: rgba(0, 0, 0, 0.3);
     --footer-color: rgb(178, 165, 190, 0.3);
   }
   .light-theme {
@@ -25,7 +26,8 @@
     --form-color: rgb(202, 202, 227);
     --moreSwiper-color: rgba(0, 0, 0, 0.5);
     --moreEd-color: rgb(93, 69, 114);
-    --project-container-color: rgba(174, 174, 229, 0.7);
+    --project-container-color: rgba(0, 0, 35, 0.8);
+    --project-back-color: rgba(255, 255, 255, 0.1);
     --footer-color: rgb(46, 5, 84, 0.5);
   }
   ::-webkit-scrollbar {
